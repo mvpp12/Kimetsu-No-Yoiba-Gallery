@@ -2,73 +2,73 @@ const DATA = [
   {
     id: 'tanjiro',
     name: 'Tanjiro Kamado',
-    img: '/Gallery/pictures/tanjiro.jpg',
+    img: 'pictures/tanjiro.jpg',
     desc: 'A kind-hearted Demon Slayer who uses Water Breathing and Sun Breathing while seeking to cure his sister Nezuko.'
   },
   {
     id: 'nezuko',
     name: 'Nezuko Kamado',
-    img: '/Gallery/pictures/nezuko.jpg',
+    img: 'pictures/nezuko.jpg',
     desc: 'Tanjiro’s demon sister with unique abilities, known for her strength, innocence, and resistance to consuming humans.'
   },
   {
     id: 'zenitsu',
     name: 'Zenitsu Agatsuma',
-    img: '/Gallery/pictures/zenitsu.jpg',
+    img: 'pictures/zenitsu.jpg',
     desc: 'A fearful but powerful Demon Slayer who becomes incredibly strong when unconscious, mastering Thunder Breathing.'
   },
   {
     id: 'inosuke',
     name: 'Inosuke Hashibira',
-    img: '/Gallery/pictures/Inosuke.jpg',
+    img: 'pictures/Inosuke.jpg',
     desc: 'A wild and fearless fighter who uses Beast Breathing, known for his boar mask and unpredictable combat style.'
   },
   {
     id: 'kokushibo',
     name: 'Kokushibo',
-    img: '/Gallery/pictures/kokushibo.jpg',
+    img: 'pictures/kokushibo.jpg',
     desc: 'A powerful Upper Rank demon and former Demon Slayer swordsman who uses Moon Breathing; relentless and bound by centuries of regret.'
   },
   {
     id: 'giyu',
     name: 'Giyu Tomioka',
-    img: '/Gallery/pictures/Giyu.jpg',
+    img: 'pictures/Giyu.jpg',
     desc: 'The Water Hashira, stoic and powerful, the first to spare Nezuko and support Tanjiro.'
   },
   {
     id: 'shinobu',
     name: 'Shinobu Kocho',
-    img: '/Gallery/pictures/shinobu.jpg',
+    img: 'pictures/shinobu.jpg',
     desc: 'The Insect Hashira who uses poison-based combat and maintains a deceptively calm, cheerful demeanor.'
   },
   {
     id: 'rengoku',
     name: 'Kyojuro Rengoku',
-    img: '/Gallery/pictures/Rengoku.jpg',
+    img: 'pictures/Rengoku.jpg',
     desc: 'The Flame Hashira known for his burning spirit, kindness, and strong sense of duty.'
   },
   {
     id: 'tengen',
     name: 'Tengen Uzui',
-    img: '/Gallery/pictures/tengen.jpg',
+    img: 'pictures/tengen.jpg',
     desc: 'The Sound Hashira with a flashy personality and combat style, excelling in high-speed swordplay and tactics.'
   },
   {
     id: 'muzan',
     name: 'Muzan Kibutsuji',
-    img: '/Gallery/pictures/muzan.jpeg',
+    img: 'pictures/muzan.jpeg',
     desc: 'The main antagonist and progenitor of all demons, cold, manipulative, and possessing overwhelming power.'
   },
   {
     id: 'akaza',
     name: 'Akaza',
-    img: '/Gallery/pictures/akaza.jpg',
+    img: 'pictures/akaza.jpg',
     desc: 'An Upper Rank Three demon with immense combat abilities and a tragic past, known for his martial arts prowess and red marking.'
   },
   {
     id: 'gyomei',
     name: 'Gyomei Himejima',
-    img: '/Gallery/pictures/gyomei.jpg',
+    img: 'pictures/gyomei.jpg',
     desc: 'The Stone Hashira, a blind swordsman with exceptional strength and unwavering resolve, known for his compassion and spiritual depth.'
   }
 ];
