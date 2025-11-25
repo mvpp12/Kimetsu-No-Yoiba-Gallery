@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Demons Slayer — Gallery</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>Kimetsu No Yaiba</h1>
+      <p class="subtitle">Kimetsu no Yaiba (Demon Slayer) is a Japanese anime and manga series that follows the journey of Tanjiro Kamado, a kind-hearted boy whose family is slaughtered by demons. His younger sister, Nezuko, survives but is transformed into a demon, setting Tanjiro on a mission to cure her and avenge their loved ones.</p>
+      <a id="viewGallery" class="btn-cta" href="#gallery">View Gallery</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="controls">
+      <input id="search" placeholder="Search characters..." aria-label="Search characters" />
+    </section>
+
+    <section id="gallery" class="gallery" aria-live="polite"></section>
+  </main>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button id="modalClose" class="modal-close" aria-label="Close">✕</button>
+      <img id="modalImage" alt="" />
+      <div class="modal-info">
+        <h2 id="modalName"></h2>
+        <p id="modalDesc"></p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>Designed by Mark Vincent Plaza</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
