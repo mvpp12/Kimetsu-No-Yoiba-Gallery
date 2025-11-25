@@ -11,7 +11,7 @@ html{scroll-behavior:smooth}
 body{
   color:var(--muted);
   background-color:#0b0b0b;
-  background-image: url('/Gallery/backgrounds/Infinity-Castle-main.webp');
+  background-image: url('backgrounds/Infinity-Castle-main.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,9 +35,6 @@ body{
 .btn-cta:hover{transform:translateY(-3px);box-shadow:0 18px 40px rgba(255,136,80,0.18)}
 
 .site-header{display:none}
-@supports not (background-image: url('../backgrounds/Infinity-Castle-main.webp')){
-  body{background-image: url('../backgrounds/demonslayer_lpkizlj-vjmc232ppc5ehh0gpvrfk40sdq.avif');}
-}
 
 
 
