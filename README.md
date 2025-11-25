@@ -1,26 +1,37 @@
-# Demons Slayer — Gallery
+# Demon Slayer — Gallery
 
-Simple static gallery showcasing ten characters from Demon Slayer with CSS animations and a modal viewer.
+A beautiful static gallery showcasing characters from the anime Demon Slayer (Kimetsu no Yaiba) with interactive CSS animations and modal image viewer.
 
-How to use
-- Open `Demon Slayer_Gallery/index.html` in your browser.
-- The page expects character images in the sibling `pictures` folder and the background in the sibling `backgrounds` folder.
+## Features
 
-Image expectations (relative to this folder):
-- `../pictures/tanjiro.jpg`
-- `../pictures/nezuko.jpg`
-- `../pictures/zenitsu.jpg`
-- `../pictures/Inosuke.jpg`
-- `../pictures/kanao.jpg` (please add if missing)
-- `../pictures/Giyu.jpg`
-- `../pictures/shinobu.jpg`
-- `../pictures/Rengoku.jpg`
-- `../pictures/tengen.jpg`
-- `../pictures/muzan.jpeg`
+- Responsive grid gallery with 12 characters
+- Smooth hover animations and 3D transforms
+- Modal viewer for full-size character images
+- Search functionality to filter characters
+- Beautiful anime-inspired design with Bebas Neue font
+- Dark theme with Infinity Castle background
 
-Background image (recommended):
-- `../backgrounds/Infinity-Castle-main.webp` (falls back to an included `.avif` if missing)
+## How to Use
 
-Notes
-- If files are missing, place the correct image files into the `pictures` and `backgrounds` sibling directories.
-- Open the `index.html` file directly in the browser (double-click or `file:///` path).
+Simply open the deployed website at: [https://mvpp12.github.io/Gallery/](https://mvpp12.github.io/Gallery/)
+
+Or to run locally:
+1. Clone the repository
+2. Open `index.html` in your browser
+
+## Characters Included
+
+- Tanjiro Kamado
+- Nezuko Kamado
+- Zenitsu Agatsuma
+- Inosuke Hashibira
+- Kokushibo
+- Giyu Tomioka
+- Shinobu Kocho
+- Kyojuro Rengoku
+- Tengen Uzui
+- Muzan Kibutsuji
+- Akaza
+- Gyomei Himejima
+
+Designed by Mark Vincent Plaza

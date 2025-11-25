@@ -11,9 +11,10 @@ html{scroll-behavior:smooth}
 body{
   color:var(--muted);
   background-color:#0b0b0b;
-  background-image: url('file:///D:/Git_project/backgrounds/Infinity-Castle-main.webp'), url('../backgrounds/Infinity-Castle-main.webp');
-  background-size: cover, cover;
-  background-position: center center, center center;
+  background-image: url('/Gallery/backgrounds/bg.jpg'), url('/Gallery/backgrounds/Infinity-Castle-main.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
