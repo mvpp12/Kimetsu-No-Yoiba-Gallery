@@ -84,7 +84,7 @@ const search = document.getElementById('search');
 
 function createCard(item, index){
   const el = document.createElement('article');
-  el.className = 'card';
+  el.className = 'col-12 col-sm-6 col-md-4 col-lg-3 card';
   el.style.animationDelay = `${index * 150}ms`;
   el.innerHTML = `
     <div class="media" role="img" aria-label="${item.name}">

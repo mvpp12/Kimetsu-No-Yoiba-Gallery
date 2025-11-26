@@ -40,7 +40,8 @@ body{
 
 #controls{display:none;justify-content:center;padding:18px}
 #controls.visible{display:flex}
-#search{width:min(720px,90%);padding:12px 16px;border-radius:999px;border:1px solid rgba(255,255,255,0.08);background:rgba(0,0,0,0.35);color:var(--muted)}
+#controls .col-12{display:flex;justify-content:center}
+#search{width:min(720px,90%);padding:12px 16px;border-radius:999px;border:1px solid rgba(255,255,255,0.08);background:rgba(0,0,0,0.35);color:var(--muted);margin:0}
 
 .video-section{padding:40px 20px 10px;display:flex;justify-content:center}
 .video-inner{width:100%;max-width:1400px;text-align:center}
@@ -49,12 +50,14 @@ body{
 .video-frame{position:relative;width:100%;padding-top:56.25%;border-radius:20px;overflow:hidden;box-shadow:0 40px 90px rgba(0,0,0,0.65)}
 .video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 
-.gallery{display:none;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;padding:28px;max-width:1200px;margin:0 auto;perspective:1200px}
-.gallery.visible{display:grid}
-.card{position:relative;border-radius:var(--card-radius);overflow:hidden;cursor:pointer;transform-origin:center center;transition:transform .32s cubic-bezier(.2,.9,.3,1),box-shadow .25s;transform-style:preserve-3d}
+.gallery{display:none;padding:28px;max-width:1200px;margin:0 auto;perspective:1200px}
+.gallery.visible{display:flex}
+.gallery .col-12,.gallery .col-sm-6,.gallery .col-md-4,.gallery .col-lg-3{padding:9px!important}
+.card{position:relative;border-radius:var(--card-radius);overflow:hidden;cursor:pointer;transform-origin:center center;transition:transform .32s cubic-bezier(.2,.9,.3,1),box-shadow .25s;transform-style:preserve-3d;background:transparent!important;border:none!important;padding:0!important;margin:0}
+.card-body{display:none}
 .card:hover{transform:translateY(-8px) scale(1.03);box-shadow:0 28px 60px rgba(0,0,0,0.7)}
-.card .media{height:320px;background-size:cover;background-position:center;filter:brightness(.95);transition:transform .45s cubic-bezier(.2,.9,.3,1),background-position .45s;position:relative;overflow:hidden}
-.card .media .media-img{width:100%;height:100%;object-fit:cover;display:block;transform-origin:center center;transition:transform .45s cubic-bezier(.2,.9,.3,1),filter .45s,opacity .45s}
+.card .media{height:320px;background-size:cover;background-position:center;filter:brightness(.95);transition:transform .45s cubic-bezier(.2,.9,.3,1),background-position .45s;position:relative;overflow:hidden;background-color:transparent;border-radius:12px}
+.card .media .media-img{width:100%;height:100%;object-fit:cover;display:block;transform-origin:center center;transition:transform .45s cubic-bezier(.2,.9,.3,1),filter .45s,opacity .45s;margin:0;padding:0;border-radius:12px}
 .card .media .media-img.loading{filter:blur(8px) saturate(.9) brightness(.7);opacity:.6;transform:scale(1.03)}
 .card .media .media-img.is-loaded{filter:none;opacity:1;transform:none}
 .card .media .media-img.load-failed{filter:grayscale(1) brightness(.55);opacity:.6}
